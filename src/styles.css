@@ -101,7 +101,9 @@ border-radius: 20px;
   padding: 16px;
   min-height: 180px;
   overflow: auto;
-}
+  white-space: pre-line;
+  line-height: 2;
+    }
 
 .poem-row{
 padding: 16px 14px;

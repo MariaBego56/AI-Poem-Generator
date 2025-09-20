@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <link rel="stylesheet" href="src/styles.css" />
   <title>AI Poem Generator</title>
@@ -13,14 +14,14 @@
   <div class="container">
     <header>
       <h1>Welcome to the AI Poem generator</h1>
-      <h2>Unleash your creativity</h2>
+      <h2>Unleash your AI creativity</h2>
     </header>
     <main class="panel">
 
 
       <form id="prompt-form">
         <input type="text" placeholder="give me a word to inspire me" autofocus required autocomplete="off"
-          class="prompt" name="prompt" />
+          class="prompt" id="theme-poem-prompt" />
         <input type="submit" class="submit-button" value="create poem" />
 
       </form>
@@ -30,8 +31,8 @@
 
         <div class="poem-row">
 
-          the poem will appear here<br />
-          and we can add auto focus
+
+
 
 
         </div>
