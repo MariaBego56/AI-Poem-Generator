@@ -9,33 +9,44 @@
 </head>
 
 <body>
-  <header>
-    <h1>Welcome to the AI Poem generator</h1>
-    <h2>Unleash your creativity</h2>
-  </header>
+  <div class="container">
+    <header>
+      <h1>Welcome to the AI Poem generator</h1>
+      <h2>Unleash your creativity</h2>
+    </header>
+    <main class="panel">
 
-  <form>
-    <input type="text" placeholder="give me a word to inspire me" autofocus required autocomplete="off"
-      class="prompt" />
-    <input type="submit" class="submit-button" />
 
-  </form>
-  <div>
+      <form id="prompt-form">
+        <input type="text" placeholder="give me a word to inspire me" autofocus required autocomplete="off"
+          class="prompt" name="prompt" />
+        <input type="submit" class="submit-button" value="create poem" />
 
-    the poem will appear here<br />
-    and we can add auto focus
+      </form>
+      <section id="poem" aria-live="polite">
+
+
+
+        <div class="poem-row">
+
+          the poem will appear here<br />
+          and we can add auto focus
+
+
+        </div>
+      </section>
+
+      <footer class="inside-panel">
+        This project was coded with ❤️ by <a href="https://www.technicalcommunicatormaria.co.uk/" target="_blank"
+          rel="noreferrer noopener">Maria de
+          la Serna</a>, it is open source in <a href="https://github.com/MariaBego56/AI-Poem-Generator" target="_blank"
+          rel="noreferrer noopener">GitHub</a>, and deploy in <a href="https://ai-poem-gnrte.netlify.app/"
+          target="_blank" rel="noreferrer noopener">Netlify</a>
+      </footer>
+    </main>
 
   </div>
-</body>
-<footer>
-  This project was coded with ❤️ by <a href="https://www.technicalcommunicatormaria.co.uk/" target="_blank"
-    rel="noreferrer noopener">Maria de
-    la Serna</a>, it is open source in <a href="https://github.com/MariaBego56/AI-Poem-Generator" target="_blank"
-    rel="noreferrer noopener">GitHub</a>, and deploy in <a href="https://ai-poem-gnrte.netlify.app/" target="_blank"
-    rel="noreferrer noopener">Netlify</a>
-</footer>
-
-<script src="src/index.js"></script>
+  <script src="src/index.js"></script>
 </body>
 
 </html>
