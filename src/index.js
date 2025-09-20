@@ -1,6 +1,8 @@
 function createPoem(event) {
 event.preventDefault();
 
+alert("AI is creating a poem");
+
 new Typewriter("#poem", {
   strings: "The poem will appear here",
   autoStart: true,
