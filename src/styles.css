@@ -1,1 +1,56 @@
+body{
 
+  background-color:antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.container {
+
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+h1{
+ 
+font-weight: 600;
+  font-size: 36px;
+  line-height: 1.5;
+ color:burlywood;
+}
+
+h2{
+font-size: smaller;
+font-style: italic;
+color: chocolate;
+
+}
+
+header{
+text-align: center;
+  margin-bottom: 30px;
+}
+
+form{
+
+  padding: 30px;
+background-color: bisque;
+border-radius: 6px;
+display:flex;
+}
+
+.prompt{
+padding: 16px;
+border: 1px  rgba(200, 92, 29, 0.5);
+width: 80%;
+font-size: 16px;
+border-radius: 30px;
+line-height: 20px;
+color:burlywood;
+border-style: double;
+}
+
+.submit-button{
+
+
+}
