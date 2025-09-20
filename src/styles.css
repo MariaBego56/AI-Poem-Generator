@@ -19,7 +19,7 @@ color: rgb(138, 62, 9);
 
 .panel{
 padding: 14;
-margin-top: 20px;
+margin-top: 40px;
   background-color: antiquewhite;
     border: 2px solid rgba(193, 111, 64, 0.25);
     border-radius: 11px;
@@ -81,20 +81,47 @@ form{
 
 }
 
+.prompt:focus {
+  box-shadow: 0 0 0 4px rgba(193, 111, 64, 0.15);
+}
+
 .submit-button{
 margin-left: 20px;
 padding: 16px;
-background-color: bisque;
+background-color: antiquewhite;
 color:rgb(94, 42, 5);
 font-weight: 600;
-border: 50px rgba(193, 111, 64, 0.5);
+border: 1px solid rgba(193, 111, 64, 0.5);
 border-radius: 20px;
 
 }
 
-footer{
+#poem{
+
+  padding: 16px;
+  min-height: 180px;
+  overflow: auto;
+}
+
+.poem-row{
+padding: 16px 14px;
+margin: 15px;
+border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+color: rgb(94, 42, 5);
+white-space: pre-wrap;
+}
+
+.poem-row:last-child {
+  border-bottom: none;
+
+}
+
+footer.inside-panel{
+padding: 14px 14px 16px;
 text-align: center;
-margin-top: 30px;
+margin-bottom: 10px;
 font-size: 14px;
+border: 50px rgba(193, 111, 64, 0.5);
+border-top: 1px dashed  rgba(193, 111, 64, 0.5);
 
 }
