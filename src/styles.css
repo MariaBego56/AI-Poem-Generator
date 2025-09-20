@@ -56,19 +56,20 @@ text-align: center;
 form{
 
    padding: 16px;
+    margin-top: 30px;
     background-color: rgb(192, 113, 15);
     border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
     display: flex;
     gap: 12px;
     align-items: center;
     position: sticky;
-    /* stays on top if poem scrolls */
     top: 0;
     z-index: 1;
 }
 
 .prompt{
     padding: 12px 14px;
+  
     background-color: antiquewhite;
     width: 100%;
     font-size: 16px;
@@ -102,7 +103,9 @@ border-radius: 20px;
   min-height: 180px;
   overflow: auto;
   white-space: pre-line;
-  line-height: 2;
+  line-height: 1.5;
+  color:#2187ab;
+  font-weight: 600;
     }
 
 .poem-row{
