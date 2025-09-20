@@ -1,7 +1,13 @@
 function createPoem(event) {
 event.preventDefault();
 
-alert("AI writing a poem");
+new Typewriter("#poem", {
+  strings: "The poem will appear here",
+  autoStart: true,
+  delay: 5,
+  cursor:"",
+});
+let poemElement= document.querySelector("#poem");
 
 }
 
